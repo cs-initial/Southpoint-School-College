@@ -1,0 +1,214 @@
+body{
+    text-align: center;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 2%;
+}
+
+h4{
+    font-size: 1rem;
+    padding: 2%;
+}
+
+
+p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Headings and Tagline */
+
+.Big-Heading{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Sub-headings{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.contact-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.tagline{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/* Title */
+
+#Title{
+    
+    padding: 0% 0% 3% 0%;
+     
+}
+
+.title-section{
+    margin-right: 0;
+}
+
+
+.title-text{
+    padding: 1% 5%;
+    color: #000000;
+    text-align: left;
+
+}
+
+.bg-img{
+    width: fit-content;
+}
+
+/* Navbar */
+
+.nav-img{
+    width: 10%;
+}
+
+.navbar-brand{
+    width: 40%;
+}
+
+.nav-img:hover{
+    background-color:rgb(247, 251, 255);
+}
+
+
+.navbar .container-fluid{
+   text-align: left;
+    padding: 0% 4% 0% 5%;
+}
+
+.nav-item{
+    padding: 0 1rem;
+    text-align: right;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.nav-link:hover{
+    background-color: rgb(227, 231, 247);
+    color: #010101;
+}
+
+
+
+/* Product Section */
+
+#Management{
+    background-color: rgb(26, 61, 25);
+    color: #fff;
+    padding: 3% 0%;
+   
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+
+
+/* Teachers */
+
+#Teachers{
+    padding: 5% 7%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0;
+}
+
+.card{
+    margin: 5%;
+}
+
+.card-header{
+    background-color: rgb(143, 188, 255);
+    color: #fff;
+}
+
+.card-body{
+    color: #fff;
+    background-color: rgb(0, 89, 255);
+    padding-bottom:5% ;
+    font-size: 5%;
+    font-weight: bold;
+}
+
+
+
+/* Contact Section */
+
+#Contact{
+    padding: 5% 5%;
+    background-color: #c9bfff;
+    align-items: flex-start;
+    
+}
+
+.contact-info{
+    margin-top: 2%;
+}
+
+
+.location{
+    font-size: 1rem;
+}
+
+.social-icon{
+    padding: 3%;
+}
+
+/* Footer Secion */
+
+.copyrght{
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1%;
+    color: rgb(150, 150, 150);
+    background-color: rgb(206, 245, 255);
+}
+
+
+
+@media (max-width:990px){
+
+    #Title{
+        text-align: center;
+    }
+
+    .title-text{
+        padding: 10% 0%;
+    }
+    
+    .tg-img{
+        text-align: center;
+    }
+
+    #Contact{
+        padding: 7% 8%;
+        text-align: center;
+    }
+
+    .contact-heading{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+}
